@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hilal Ayyıldız - Kişisel Blog</title>
+  <meta name="description" content="Hilal Ayyıldız'ın kişisel blogu — Hakkımda, İlgi Alanlarım ve İletişim">
+  <style>
+    :root{--accent:#0066cc;--bg:#f7f9fc;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#111}
+    header{background:linear-gradient(90deg, rgba(0,102,204,0.95), rgba(0,150,136,0.95)); color:#fff}
+    .nav{display:flex;align-items:center;justify-content:space-between;max-width:1100px;margin:0 auto;padding:1rem}
+    .logo{font-weight:700;letter-spacing:0.2px}
+    nav ul{display:flex;gap:1rem;list-style:none;margin:0;padding:0}
+    nav a{color:#fff;text-decoration:none;padding:0.45rem 0.6rem;border-radius:6px}
+    nav a:hover{background:rgba(255,255,255,0.08)}
+    main{max-width:1100px;margin:2rem auto;padding:0 1rem}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:1.5rem;align-items:center}
+    .hero h1{margin:0 0 0.5rem;font-size:2rem}
+    .hero p{margin:0 0 1rem;color:#333}
+    .card{background:var(--card);padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(10,20,30,0.06)}
+    .profile-img{width:100%;height:auto;border-radius:10px;display:block}
+    section{margin-top:1.5rem}
+    h2{margin-top:0}
+    ul.skills, ul.interests{display:flex;flex-wrap:wrap;gap:0.5rem;padding:0;margin:0;list-style:none}
+    ul.skills li, ul.interests li{background:#eef6ff;padding:0.4rem 0.7rem;border-radius:999px;color:#023047;font-weight:600}
+    .video-wrapper{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px}
+    .video-wrapper video{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+    footer{margin-top:3rem;background:#111;color:#ddd;padding:1rem}
+    .footer-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:0 1rem}
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr;}
+      .nav{padding:0.6rem}
+      nav ul{gap:0.4rem}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="logo">Hilal Ayyıldız'ın Kişisel Blogu</div>
+      <nav>
+        <ul>
+          <li><a href="#hakkimda">Hakkımda</a></li>
+          <li><a href="#ilgialanlarim">İlgi Alanlarım</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hakkımda -->
+    <section id="hakkimda" class="hero">
+      <div class="card">
+        <h1>Merhaba, ben Hilal Ayyıldız</h1>
+        <ul>
+          <li>14.03.2003 tarihinde Uşak'ta doğdum. Üniversite eğitimim için Isparta'ya geldim. Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. Isparta'yı çok sevmesem de bölümümü çok seviyorum.</li>
+           <li>B1 seviyesinde İngilizceye sahibim ve bunu daha ileri düzeye taşımak için çabalıyorum. Almancaya özel ilgim var; bu yüzden çok istikrarlı olamasam da Almanca öğrenmeye çalışıyorum.</li> 
+           <li>C, C#, Java programlama dillerinde derslerimiz sayesinde bilgi sahibiyim; ayrıca veri bilimi üzerine de çalışmak için kendim Python öğreniyorum.</li>
+            <li>Güvenlik alanına ilgi duyduğum için donanım stajımı network security üzerine yaptım. Bu alanda kendimi geliştirmeye devam ediyorum.</li> 
+            <li>Üniversitemizde bulunan GDG On Campus kulübünde 2 senedir sosyal medya ve PR yönetiminde görev alıyorum
+              <a href="https://www.instagram.com/gdscsdu/" target="_blank" rel="noopener">Instagram hesabı</a>
+            </li> 
+            <li>Fotoğraf çekmeyi ve düzenlemeyi çok seviyorum ,profesyonel olmasam da kendimi geliştirmeye çalışıyorum.</li>
+        </ul>
+
+        <h3>Hedeflerim</h3>
+       <p>İlk hedefim okulu bir an önce bitirmek:) </p> 
+       <p>İlgilendiğim alanlarda kendimi tatmin edebileceğim yetkinliğe gelmek. </p>
+      </div>
+
+      <aside class="card">
+        <img class="profile-img" src="foto/WhatsApp Görsel 2025-09-24 saat 01.40.28_f459c81a.jpg" alt="Hilal Ayyıldız Profil Fotoğrafı">
+        <img class="profile-img" src="foto/hh.jpg" alt="Ek Profil Fotoğrafı" width="300">
+      </aside>
+    </section>
+
+    <!-- İlgi Alanlarım -->
+    <section id="ilgialanlarim">
+      <div class="card">
+        <h2>İlgi Alanlarım</h2>
+        <ul class="interests">
+          <li>Siber güvenlik</li>
+          <li>Gömülü sistemler</li>
+          <li>Web geliştirme</li>
+          <li>Gezi & Fotoğrafçılık</li>
+          <li><a href="https://www.instagram.com/_photogpt/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section id="video">
+      <h3>Video</h3>
+      <div class="video-wrapper">
+        <video controls>
+          <source src="foto/video.mp4" type="video/mp4">
+         
+        </video>
+      </div>
+    </section>
+
+   
+    <section id="iletisim">
+      <div class="card">
+        <h2>İletişim</h2>
+        <ul>
+          <li>E-posta: <a href="mailto:l2321032062@ogr.sdu.edu.tr">l2321032062@ogr.sdu.edu.tr</a></li>
+        </ul>
+        <p>CV için <a href="cv/cv1..pdf">buradan</a> indirebilirsiniz.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>© 2025 Hilal Ayyıldız</div>
+      <div>Öğrenci No: 2321032062</div>
+    </div>
+  </footer>
+</body>
+</html>
